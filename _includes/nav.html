@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PrivatePolicy</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -25,9 +34,8 @@
                     <a class="page-scroll" href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#privatepolicy">PrivatePolicy</a>
+                    <a href="#privatepolicy" onclick="openPrivatePolicy()">PrivatePolicy</a>
                 </li>
-                
                 <li>
                     <a class="page-scroll" href="#contact">Contact</a>
                 </li>
@@ -37,3 +45,18 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
+
+<script>
+function openPrivatePolicy() {
+    // 'PrivatePolicy' 페이지의 URL
+    var privatePolicyURL = 'https://durumi-contact.github.io/privatepolicy'; // 여기에 PrivatePolicy 페이지의 실제 URL을 입력하세요.
+
+    // 새 창을 엽니다.
+    window.open(privatePolicyURL, '_blank');
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
