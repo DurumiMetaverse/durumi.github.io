@@ -37,3 +37,15 @@
     </div>
     <!-- /.container-fluid -->
 </nav>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var privacyPolicyLink = document.querySelector("a[href='privacypolicy.html']");
+        if (privacyPolicyLink) {
+            privacyPolicyLink.addEventListener("click", function(event) {
+                event.preventDefault(); // 기본 동작인 페이지 이동을 막습니다.
+                location.href = "privacypolicy.html"; // privacypolicy.html 페이지로 이동합니다.
+            });
+        }
+    });
+</script>
